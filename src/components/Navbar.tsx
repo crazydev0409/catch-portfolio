@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
   { label: "Product", href: "#product" },
   { label: "Platform", href: "#platform" },
   { label: "Developers", href: "#platform" },
-  { label: "Roadmap", href: "#roadmap" },
   { label: "About", href: "#about" },
 ];
 
@@ -19,10 +19,17 @@ export function Navbar() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 h-20 border-b border-[#30363D] bg-[#0B0F14]/95 backdrop-blur-md"
+      className="fixed top-0 left-0 right-0 z-50 h-20 border-b border-[#30363D] bg-black/95 backdrop-blur-md"
     >
       <nav className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-6 md:px-12">
         <a href="#" className="flex items-center gap-2">
+          <Image
+            src="/logo.png"
+            alt="Catch"
+            width={36}
+            height={36}
+            className="h-9 w-9 object-contain"
+          />
           <span className="text-xl font-semibold tracking-tight text-white">
             Catch
           </span>
@@ -42,10 +49,10 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#cta"
-            className="rounded-lg bg-[#4F7CFF] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+            href="#preview"
+            className="rounded-lg bg-[#22C55E] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
-            Request Access
+            Get Started
           </a>
 
           <button
@@ -72,7 +79,7 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="absolute left-0 right-0 top-20 border-b border-[#30363D] bg-[#0B0F14] md:hidden"
+            className="absolute left-0 right-0 top-20 border-b border-[#30363D] bg-black md:hidden"
           >
             <div className="flex flex-col gap-4 px-6 py-6">
               {NAV_LINKS.map((link) => (

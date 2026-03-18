@@ -38,7 +38,7 @@ const FOOTER_SECTIONS = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-[#30363D] bg-[#0B0F14] py-20">
+    <footer className="border-t border-[#30363D] bg-black py-20">
       <div className="mx-auto max-w-[1440px] px-6 md:px-12">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-1">
@@ -48,14 +48,8 @@ export function Footer() {
             </p>
             <div className="mt-6 space-y-2 text-sm text-[#8B949E]">
               <a
-                href="tel:+14168355352"
-                className="block hover:text-[#4F7CFF]"
-              >
-                +1 (416) 835-5352
-              </a>
-              <a
                 href="mailto:support@catchapp.ca"
-                className="block hover:text-[#4F7CFF]"
+                className="block hover:text-[#22C55E]"
               >
                 support@catchapp.ca
               </a>

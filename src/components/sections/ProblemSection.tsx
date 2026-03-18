@@ -1,62 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export function ProblemSection() {
   return (
     <section id="problem" className="py-20">
       <div className="mx-auto max-w-[1440px] px-6 md:px-12">
-        <div className="grid gap-16 md:grid-cols-2 md:items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+        <div className="mx-auto max-w-3xl text-center">
+          <motion.h2
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="relative aspect-video overflow-hidden rounded-xl border border-[#30363D] bg-[#161B22]"
+            className="text-3xl font-semibold text-white md:text-4xl"
           >
-            <Image
-              src="/slide-calendars-lie.png"
-              alt="Chaotic scheduling - calendar conflicts, messaging threads, missed appointments"
-              fill
-              className="object-cover"
-            />
-          </motion.div>
-
-          <div>
-            <motion.h2
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-3xl font-semibold text-white md:text-4xl"
-            >
-              Time is broken.
-            </motion.h2>
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="mt-6 space-y-4 text-[#8B949E]"
-            >
-              <p>
-                Every day, people spend hours trying to coordinate schedules
-                across calendars, messages, and booking tools.
-              </p>
-              <p>
-                Businesses lose revenue from missed appointments and
-                inefficient scheduling.
-              </p>
-              <p>
-                AI systems can automate tasks, but they still cannot coordinate
-                real-world timing between people, services, and systems.
-              </p>
-              <p>
-                Time is the most valuable resource we have — yet it remains one
-                of the least structured.
-              </p>
-            </motion.div>
-          </div>
+            Time is broken.
+          </motion.h2>
+          <motion.blockquote
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="mt-6 space-y-4 text-[#8B949E]"
+          >
+            <p className="italic">
+              &ldquo;Every day, people spend hours trying to coordinate schedules
+              across calendars, messages, and booking tools.&rdquo;
+            </p>
+            <p className="italic">
+              &ldquo;Businesses lose revenue from missed appointments and
+              inefficient scheduling.&rdquo;
+            </p>
+            <p className="italic">
+              &ldquo;AI systems can automate tasks, but they still cannot coordinate
+              real-world timing between people, services, and systems.&rdquo;
+            </p>
+            <p className="italic">
+              &ldquo;Time is the most valuable resource we have — yet it remains one
+              of the least structured.&rdquo;
+            </p>
+          </motion.blockquote>
         </div>
 
         {/* Why Now */}
@@ -71,7 +53,7 @@ export function ProblemSection() {
           </h3>
           <div className="mt-8 grid gap-8 md:grid-cols-3">
             <div>
-              <h4 className="font-medium text-[#4F7CFF]">
+              <h4 className="font-medium text-[#22C55E]">
                 AI agents are beginning to act in the real world.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">
@@ -80,7 +62,7 @@ export function ProblemSection() {
               </p>
             </div>
             <div>
-              <h4 className="font-medium text-[#4F7CFF]">
+              <h4 className="font-medium text-[#22C55E]">
                 The economy is increasingly time-based.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">
@@ -89,7 +71,7 @@ export function ProblemSection() {
               </p>
             </div>
             <div>
-              <h4 className="font-medium text-[#4F7CFF]">
+              <h4 className="font-medium text-[#22C55E]">
                 Yet coordination tools remain fragmented.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">

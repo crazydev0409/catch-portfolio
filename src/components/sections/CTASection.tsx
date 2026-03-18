@@ -12,7 +12,7 @@ export function CTASection() {
       id="cta"
       className="relative overflow-hidden py-24"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-[#161B22] to-[#0B0F14]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#161B22] to-black" />
       <div className="relative mx-auto max-w-[1440px] px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,18 +37,18 @@ export function CTASection() {
               placeholder="Phone Number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-[#0B0F14] px-4 py-3 text-white placeholder:text-[#8B949E] focus:border-[#4F7CFF] focus:outline-none focus:ring-1 focus:ring-[#4F7CFF] sm:min-w-[200px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E] sm:min-w-[160px]"
             />
             <input
               type="text"
               placeholder="How will you use Catch?"
               value={useCase}
               onChange={(e) => setUseCase(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-[#0B0F14] px-4 py-3 text-white placeholder:text-[#8B949E] focus:border-[#4F7CFF] focus:outline-none focus:ring-1 focus:ring-[#4F7CFF] sm:min-w-[200px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E] sm:min-w-[160px]"
             />
             <button
               type="submit"
-              className="rounded-lg bg-[#4F7CFF] px-8 py-3 font-medium text-white transition-opacity hover:opacity-90"
+              className="rounded-lg bg-[#22C55E] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               Request Access
             </button>
@@ -57,15 +57,8 @@ export function CTASection() {
           <p className="mt-6 text-sm text-[#8B949E]">
             Or reach out directly:{" "}
             <a
-              href="tel:+14168355352"
-              className="text-[#4F7CFF] hover:underline"
-            >
-              +1 (416) 835-5352
-            </a>
-            {" · "}
-            <a
               href="mailto:support@catchapp.ca"
-              className="text-[#4F7CFF] hover:underline"
+              className="text-[#22C55E] hover:underline"
             >
               support@catchapp.ca
             </a>
