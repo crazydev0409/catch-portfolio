@@ -55,7 +55,7 @@ export function ProductPreviewSection() {
               key={screenshot.src}
               type="button"
               onClick={() => setExpandedImage(screenshot.src)}
-              className="group relative flex min-h-[400px] cursor-zoom-in items-center justify-center overflow-hidden rounded-xl border border-[#30363D] bg-black text-left transition-colors hover:border-[#22C55E]/50 focus:outline-none focus:ring-2 focus:ring-[#22C55E] focus:ring-offset-2 focus:ring-offset-black"
+              className="group relative flex min-h-[400px] cursor-zoom-in items-center justify-center overflow-hidden rounded-xl border border-[#30363D] bg-black text-left transition-colors hover:border-[#A3CB31]/50 focus:outline-none focus:ring-2 focus:ring-[#A3CB31] focus:ring-offset-2 focus:ring-offset-black"
               aria-label={`View ${screenshot.alt} in full size`}
             >
               <Image

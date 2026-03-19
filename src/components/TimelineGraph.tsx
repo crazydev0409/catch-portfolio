@@ -26,8 +26,8 @@ export function TimelineGraph() {
             x2="100%"
             y2="100%"
           >
-            <stop offset="0%" stopColor="#22C55E" stopOpacity={0.8} />
-            <stop offset="100%" stopColor="#22C55E" stopOpacity={0.3} />
+            <stop offset="0%" stopColor="#A3CB31" stopOpacity={0.8} />
+            <stop offset="100%" stopColor="#A3CB31" stopOpacity={0.3} />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="0.5" result="coloredBlur" />
@@ -44,7 +44,7 @@ export function TimelineGraph() {
           y1="30"
           x2="50"
           y2="20"
-          stroke="#22C55E"
+          stroke="#A3CB31"
           strokeWidth="0.3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
@@ -55,7 +55,7 @@ export function TimelineGraph() {
           y1="20"
           x2="80"
           y2="35"
-          stroke="#22C55E"
+          stroke="#A3CB31"
           strokeWidth="0.3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
@@ -66,7 +66,7 @@ export function TimelineGraph() {
           y1="60"
           x2="65"
           y2="55"
-          stroke="#22C55E"
+          stroke="#A3CB31"
           strokeWidth="0.3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}

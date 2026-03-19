@@ -36,7 +36,7 @@ export function IntelligenceSection() {
               </div>
               <div className="flex items-center justify-between border-t border-[#30363D] pt-4">
                 <span className="text-sm text-[#8B949E]">Confidence Score</span>
-                <span className="text-2xl font-semibold text-[#22C55E]">92%</span>
+                <span className="text-2xl font-semibold text-[#A3CB31]">92%</span>
               </div>
             </div>
             <div className="mt-6 h-2 overflow-hidden rounded-full bg-black">
@@ -45,7 +45,7 @@ export function IntelligenceSection() {
                 whileInView={{ width: "92%" }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="h-full rounded-full bg-[#22C55E]"
+                className="h-full rounded-full bg-[#A3CB31]"
               />
             </div>
           </motion.div>

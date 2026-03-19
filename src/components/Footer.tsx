@@ -49,7 +49,7 @@ export function Footer() {
             <div className="mt-6 space-y-2 text-sm text-[#8B949E]">
               <a
                 href="mailto:support@catchapp.ca"
-                className="block hover:text-[#22C55E]"
+                className="block hover:text-[#A3CB31]"
               >
                 support@catchapp.ca
               </a>

@@ -37,18 +37,18 @@ export function CTASection() {
               placeholder="Phone Number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E] sm:min-w-[160px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-[160px]"
             />
             <input
               type="text"
               placeholder="How will you use Catch?"
               value={useCase}
               onChange={(e) => setUseCase(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E] sm:min-w-[160px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-[160px]"
             />
             <button
               type="submit"
-              className="rounded-lg bg-[#22C55E] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+              className="rounded-lg bg-[#A3CB31] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               Request Access
             </button>
@@ -58,7 +58,7 @@ export function CTASection() {
             Or reach out directly:{" "}
             <a
               href="mailto:support@catchapp.ca"
-              className="text-[#22C55E] hover:underline"
+              className="text-[#A3CB31] hover:underline"
             >
               support@catchapp.ca
             </a>

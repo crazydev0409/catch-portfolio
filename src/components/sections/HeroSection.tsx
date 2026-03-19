@@ -53,18 +53,18 @@ export function HeroSection() {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             required
-            className="rounded-lg border border-[#30363D] bg-[#161B22] px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E]"
+            className="rounded-lg border border-[#30363D] bg-[#161B22] px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31]"
           />
           <input
             type="text"
             placeholder="How will you use Catch? (optional)"
             value={useCase}
             onChange={(e) => setUseCase(e.target.value)}
-            className="rounded-lg border border-[#30363D] bg-[#161B22] px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#22C55E] focus:outline-none focus:ring-1 focus:ring-[#22C55E]"
+            className="rounded-lg border border-[#30363D] bg-[#161B22] px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31]"
           />
           <button
             type="submit"
-            className="rounded-lg bg-[#22C55E] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+            className="rounded-lg bg-[#A3CB31] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
             Request Early Access
           </button>

@@ -22,15 +22,15 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 h-20 border-b border-[#30363D] bg-black/95 backdrop-blur-md"
     >
       <nav className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-6 md:px-12">
-        <a href="#" className="flex items-center gap-2">
+        <a href="#" className="flex items-center gap-4">
           <Image
             src="/logo.png"
             alt="Catch"
-            width={36}
-            height={36}
-            className="h-9 w-9 object-contain"
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-lg object-contain"
           />
-          <span className="text-xl font-semibold tracking-tight text-white">
+          <span className="text-3xl font-semibold tracking-tight text-white">
             Catch
           </span>
         </a>
@@ -50,7 +50,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <a
             href="#preview"
-            className="rounded-lg bg-[#22C55E] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+            className="rounded-lg bg-[#A3CB31] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
             Get Started
           </a>

@@ -34,13 +34,13 @@ export function VisionSection() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative aspect-video overflow-hidden rounded-xl border border-[#30363D] bg-[#161B22]"
+            className="relative aspect-video overflow-hidden rounded-xl"
           >
             <Image
               src="/slide-vision.png"
               alt="Catch vision - the default time layer"
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </motion.div>
         </div>

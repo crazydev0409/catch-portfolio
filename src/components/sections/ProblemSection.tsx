@@ -53,7 +53,7 @@ export function ProblemSection() {
           </h3>
           <div className="mt-8 grid gap-8 md:grid-cols-3">
             <div>
-              <h4 className="font-medium text-[#22C55E]">
+              <h4 className="font-medium text-[#A3CB31]">
                 AI agents are beginning to act in the real world.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">
@@ -62,7 +62,7 @@ export function ProblemSection() {
               </p>
             </div>
             <div>
-              <h4 className="font-medium text-[#22C55E]">
+              <h4 className="font-medium text-[#A3CB31]">
                 The economy is increasingly time-based.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">
@@ -71,7 +71,7 @@ export function ProblemSection() {
               </p>
             </div>
             <div>
-              <h4 className="font-medium text-[#22C55E]">
+              <h4 className="font-medium text-[#A3CB31]">
                 Yet coordination tools remain fragmented.
               </h4>
               <p className="mt-2 text-sm text-[#8B949E]">

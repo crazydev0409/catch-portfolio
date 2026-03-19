@@ -51,7 +51,7 @@ export function SolutionSection() {
           </p>
         </motion.div>
 
-        <p className="mt-12 text-center text-sm font-medium text-[#22C55E]">
+        <p className="mt-12 text-center text-sm font-medium text-[#A3CB31]">
           What Catch does — Designed for real-world coordination
         </p>
 

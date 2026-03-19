@@ -28,7 +28,7 @@ npm start
 ## Design
 
 - **Style**: Linear.app-inspired infrastructure software aesthetic
-- **Colors**: Primary `#0B0F14`, Accent `#4F7CFF`
+- **Colors**: Primary `#000000`, Accent `#A3CB31`
 - **Typography**: Inter (headlines/body), JetBrains Mono (developer sections)
 
 ## Contact
