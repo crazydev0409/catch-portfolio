@@ -33,5 +33,4 @@ npm start
 
 ## Contact
 
-- **Phone**: +1 (416) 835-5352
 - **Email**: support@catchapp.ca

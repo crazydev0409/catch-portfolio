@@ -6,12 +6,12 @@ export function ProblemSection() {
   return (
     <section id="problem" className="py-20">
       <div className="mx-auto max-w-[1440px] px-6 md:px-12">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl">
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl font-semibold text-white md:text-4xl"
+            className="text-center text-3xl font-semibold text-white md:text-4xl"
           >
             Time is broken.
           </motion.h2>
@@ -20,7 +20,7 @@ export function ProblemSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="mt-6 space-y-4 text-[#8B949E]"
+            className="mt-6 space-y-4 text-left text-[#8B949E]"
           >
             <p className="italic">
               &ldquo;Every day, people spend hours trying to coordinate schedules
