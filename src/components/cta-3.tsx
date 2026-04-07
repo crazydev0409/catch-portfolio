@@ -1,27 +1,27 @@
-import { ArrowRightIcon, PlusIcon } from "lucide-react";
+import { PlusIcon } from "lucide-react";
 
 export function CallToAction() {
   return (
     <div 
-      className="relative mx-auto flex w-full max-w-3xl flex-col justify-between gap-y-6 border-y border-[#30363D] px-4 py-8"
+      className="relative mx-auto flex w-full max-w-3xl flex-col justify-between gap-y-6 overflow-x-hidden border-y border-[#30363D] px-4 py-8"
       style={{
         backgroundImage: "radial-gradient(35% 80% at 25% 0%, rgba(255,255,255,0.08), transparent)"
       }}
     >
       <PlusIcon
-        className="absolute top-[-12.5px] left-[-11.5px] z-1 size-6 text-white"
+        className="absolute left-0 top-0 z-1 hidden size-6 -translate-x-1/2 -translate-y-1/2 text-white md:block"
         strokeWidth={1}
       />
       <PlusIcon
-        className="absolute top-[-12.5px] right-[-11.5px] z-1 size-6 text-white"
+        className="absolute right-0 top-0 z-1 hidden size-6 translate-x-1/2 -translate-y-1/2 text-white md:block"
         strokeWidth={1}
       />
       <PlusIcon
-        className="absolute bottom-[-12.5px] left-[-11.5px] z-1 size-6 text-white"
+        className="absolute bottom-0 left-0 z-1 hidden size-6 -translate-x-1/2 translate-y-1/2 text-white md:block"
         strokeWidth={1}
       />
       <PlusIcon
-        className="absolute right-[-11.5px] bottom-[-12.5px] z-1 size-6 text-white"
+        className="absolute bottom-0 right-0 z-1 hidden size-6 translate-x-1/2 translate-y-1/2 text-white md:block"
         strokeWidth={1}
       />
 

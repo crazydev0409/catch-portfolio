@@ -3,7 +3,7 @@ import { LogoCloud } from "@/components/ui/logo-cloud-3";
 
 export default function Demo() {
   return (
-    <div className="py-20 w-full place-content-center">
+    <div className="relative w-full place-content-center overflow-x-hidden py-20">
     <div
         aria-hidden="true"
         className={cn(

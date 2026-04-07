@@ -31,7 +31,7 @@ export default function DarkGrid({ items, gridSpan = "[ WHY NOW? ]", gridHeading
           {items.map(({ title, icon: Icon, desc, badge }, i) => (
             <Card
               key={title}
-              className="group relative overflow-visible border-zinc-800 bg-zinc-900 p-0 transition-colors duration-300 hover:border-zinc-700"
+              className="group relative overflow-hidden border-zinc-800 bg-zinc-900 p-0 transition-colors duration-300 hover:border-zinc-700"
             >
               {/* subtle gradient on hover */}
               <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -41,12 +41,12 @@ export default function DarkGrid({ items, gridSpan = "[ WHY NOW? ]", gridHeading
               {/* faint inner glow that appears on hover */}
               <div className="pointer-events-none absolute inset-0 rounded-xl bg-linear-to-tr from-white/0 to-white/0 group-hover:from-white/3 group-hover:to-white/6 transition-colors" />
 
-              {/* white corner squares on hover - now outside the card and square shaped */}
+              {/* Keep corners inside the card to avoid mobile overflow */}
               <div className="pointer-events-none absolute inset-0 hidden group-hover:block">
-                <div className="absolute -left-2 -top-2 h-3 w-3 bg-white" />
-                <div className="absolute -right-2 -top-2 h-3 w-3 bg-white" />
-                <div className="absolute -left-2 -bottom-2 h-3 w-3 bg-white" />
-                <div className="absolute -right-2 -bottom-2 h-3 w-3 bg-white" />
+                <div className="absolute left-1 top-1 h-2.5 w-2.5 bg-white/80" />
+                <div className="absolute right-1 top-1 h-2.5 w-2.5 bg-white/80" />
+                <div className="absolute bottom-1 left-1 h-2.5 w-2.5 bg-white/80" />
+                <div className="absolute bottom-1 right-1 h-2.5 w-2.5 bg-white/80" />
               </div>
 
               <CardHeader className="relative z-10 flex flex-row items-start gap-3 p-6">
